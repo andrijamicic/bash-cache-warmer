@@ -6,7 +6,7 @@
 # The URLs or IPs variables are passed as an argument to the script like below:
 # ./bash-cache-warmer.sh www.example1.com www.example2.com example3.com
 
-VERSION='1.0.0'
+VERSION='1.0.1'
 USER_AGENT_MOBILE="Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; SCH-I535 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
 USER_AGENT_DESKTOP="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246"
 
