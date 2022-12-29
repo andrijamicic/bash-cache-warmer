@@ -12,7 +12,7 @@ USER_AGENT_DESKTOP="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 
 
 warm_mobile() {
-    echo "Warming cache for $1"
+    echo "Warming cache for $1 on mobile"
     curl -sL -A "$USER_AGENT_MOBILE" http://$1/sitemap.xml | egrep -o "http(s?)://$1[^ \"\'()\<>]+" | while read line; do
         if [[ $line == *.xml ]]
         then
@@ -29,7 +29,7 @@ warm_mobile() {
     echo "Done warming cache for $1"
 }
 warm_desktop() {
-    echo "Warming cache for $1"
+    echo "Warming cache for $1 on desktop"
     curl -sL -A "$USER_AGENT_DESKTOP" http://$1/sitemap.xml | egrep -o "http(s?)://$1[^ \"\'()\<>]+" | while read line; do
         if [[ $line == *.xml ]]
         then
