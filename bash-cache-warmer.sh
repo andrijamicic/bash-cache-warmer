@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Written by AC - 2015 <contact@chemaly.com> - sys0dm1n.com
-# Edited by Andrija Micic - studiobeograd.com
+# Edited by Andrija Micic - 2022 - studiobeograd.com
 #
 # The URLs or IPs variables are passed as an argument to the script like below:
 # ./bash-cache-warmer.sh www.example1.com www.example2.com example3.com
