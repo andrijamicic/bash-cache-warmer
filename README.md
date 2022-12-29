@@ -10,8 +10,8 @@ It uses the curl package and the website should have a sitemap.xml to work.
 
 You can pass as many URLs or IP as you want to the script like this:
 
-    $ sudo chmod +x varnish-cache-warmer.sh
-    $ ./varnish-cache-warmer.sh example1.com example2.com example3.com
+    $ sudo chmod +x bash-cache-warmer.sh
+    $ ./bash-cache-warmer.sh www.example1.com www.example2.com example3.com
 
 ## Room for improvement
 
