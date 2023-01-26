@@ -26,7 +26,7 @@ warm_mobile() {
             echo $line
         fi
     done
-    echo "Done warming cache for $1"
+    echo "Done warming cache for $1 on mobile"
 }
 warm_desktop() {
     echo "Warming cache for $1 on desktop"
@@ -43,6 +43,7 @@ warm_desktop() {
             echo $line
         fi
     done
+    echo "Done warming cache for $1 on desktop"
     echo "Done warming cache for $1"
 }
 for host in "$@"; do
